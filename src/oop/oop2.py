@@ -20,11 +20,11 @@ class GroundVehicle():
 
 # TODO
 
-class Motorcycle(GroungBehicle):
+class Motorcycle(GroundVehicle):
     def __init__(delf):
-        super().__init__(num_wheels=2
+        super().__init__(num_wheels=2)
         
-    def drive*self):
+    def drive(self):
         return "BRAAAP!!"
 
 vehicles = [
